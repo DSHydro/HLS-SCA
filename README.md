@@ -1,6 +1,9 @@
 # HLS-SCA(Snow Mapping Project)
 Machine learning (ML) techniques are becoming increasingly vital for land cover classification, particularly in mapping snow-covered areas. This repository focuses on evaluating the effectiveness of ML methods compared to traditional index-based methods for snow mapping using the Harmonized Landsat Sentinel-2(HLS) product at 10-m spatial resolution.
 
+# NOTE
+This folder structure does not match where the code was developed or executed. Instead, to match the development environment, access cyrocloud and mimic the folder structure (or replace folder paths) as described in the code.
+
 ## Objectives
 1. Access and visualize airborne and satellite imagery (HLS).
 2. Derive preliminary snow maps using index-based methods.
