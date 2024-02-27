@@ -1,0 +1,3 @@
+https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSL30.020/HLS.L30.T11SLB.2019189T183338.v2.0/HLS.L30.T11SLB.2019189T183338.v2.0.B06.tif
+https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSL30.020/HLS.L30.T11SLB.2019221T183349.v2.0/HLS.L30.T11SLB.2019221T183349.v2.0.B06.tif
+https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSL30.020/HLS.L30.T11SLB.2019237T183353.v2.0/HLS.L30.T11SLB.2019237T183353.v2.0.B06.tif

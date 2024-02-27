@@ -1,0 +1,14 @@
+https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T11SLB.2019182T183929.v2.0/HLS.S30.T11SLB.2019182T183929.v2.0.B02.tif
+https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T11SLB.2019187T183921.v2.0/HLS.S30.T11SLB.2019187T183921.v2.0.B02.tif
+https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSL30.020/HLS.L30.T11SLB.2019189T183338.v2.0/HLS.L30.T11SLB.2019189T183338.v2.0.B02.tif
+https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T11SLB.2019192T183929.v2.0/HLS.S30.T11SLB.2019192T183929.v2.0.B02.tif
+https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T11SLB.2019197T183921.v2.0/HLS.S30.T11SLB.2019197T183921.v2.0.B02.tif
+https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T11SLB.2019202T183929.v2.0/HLS.S30.T11SLB.2019202T183929.v2.0.B02.tif
+https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T11SLB.2019212T183929.v2.0/HLS.S30.T11SLB.2019212T183929.v2.0.B02.tif
+https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSL30.020/HLS.L30.T11SLB.2019221T183349.v2.0/HLS.L30.T11SLB.2019221T183349.v2.0.B02.tif
+https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T11SLB.2019222T183929.v2.0/HLS.S30.T11SLB.2019222T183929.v2.0.B02.tif
+https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T11SLB.2019227T183931.v2.0/HLS.S30.T11SLB.2019227T183931.v2.0.B02.tif
+https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T11SLB.2019232T183929.v2.0/HLS.S30.T11SLB.2019232T183929.v2.0.B02.tif
+https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSL30.020/HLS.L30.T11SLB.2019237T183353.v2.0/HLS.L30.T11SLB.2019237T183353.v2.0.B02.tif
+https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T11SLB.2019237T183921.v2.0/HLS.S30.T11SLB.2019237T183921.v2.0.B02.tif
+https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30.T11SLB.2019242T183919.v2.0/HLS.S30.T11SLB.2019242T183919.v2.0.B02.tif
