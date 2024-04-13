@@ -1,9 +1,6 @@
 # HLS-SCA(Snow Mapping Project)
 Machine learning (ML) techniques are becoming increasingly vital for land cover classification, particularly in mapping snow-covered areas. This repository focuses on evaluating the effectiveness of ML methods compared to traditional index-based methods for snow mapping using the Harmonized Landsat Sentinel-2(HLS) product at 10-m spatial resolution.
 
-# NOTE
-This folder structure does not match where the code was developed or executed. Instead, to match the development environment, access cyrocloud and mimic the folder structure (or replace folder paths) as described in the code.
-
 ## Objectives
 1. Access and visualize airborne and satellite imagery (HLS).
 2. Derive preliminary snow maps using index-based methods.
@@ -11,57 +8,28 @@ This folder structure does not match where the code was developed or executed. I
 4. Explore feature importance and model transferability, including tests on independent datasets.
 5. Derive snow-covered areas using existing models, including Google Dynamic World and NASA-IBM geospatial model.
 
-## Tools used in this project
-* [Poetry](https://towardsdatascience.com/how-to-effortlessly-publish-your-python-package-to-pypi-using-poetry-44b305362f9f): Dependency management - [article](https://mathdatasimplified.com/2023/06/12/poetry-a-better-way-to-manage-python-dependencies/)
-* [hydra](https://hydra.cc/): Manage configuration files - [article](https://mathdatasimplified.com/2023/05/25/stop-hard-coding-in-a-data-science-project-use-configuration-files-instead/)
-* [pre-commit plugins](https://pre-commit.com/): Automate code reviewing formatting
-* [DVC](https://dvc.org/): Data version control - [article](https://mathdatasimplified.com/2023/02/20/introduction-to-dvc-data-version-control-tool-for-machine-learning-projects-2/)
-* [pdoc](https://github.com/pdoc3/pdoc): Automatically create an API documentation for your project
-* [crycloud](https://book.cryointhecloud.com/content/Getting_Started.html): Builtin environment to access and manipulate data.
-* [2021 Cloud Hackathon](https://nasa-openscapes.github.io/2021-Cloud-Hackathon/tutorials/02_Data_Discovery_CMR-STAC_API.html): Tutorial on data access helps to build baseline model codes.
+## Tools used in this Project/References
+Environment
+* [Cryocloud](https://book.cryointhecloud.com/content/Getting_Started.html): Builtin environment to access and manipulate data.
+
+Tutorials
+* [2021 Cloud Hackathon](https://nasa-openscapes.github.io/2021-Cloud-Hackathon/tutorials/): Tutorial on data access helps to build baseline model codes. We primarily used tutorials 2 (to collect relevant links), 4 (to set up NASA Earthdata access), and 5 (extracting .tif files from links collected in tutorial 2).
+* [Random Forest Walkthrough](https://geo-smart.github.io/scm_geosmart_use_case/chapters/three.html): A walkthrough on data formatting and general guidelines for creating a random forest model. [Also used the provided function library here](https://github.com/geo-smart/scm_geosmart_use_case/blob/main/book/chapters/functions_book_chapter_SCA.py)
+
+HLS Data Access
 * [Sentinel Hub](https://apps.sentinel-hub.com/eo-browser/):  Finding an image date/time/location with snow in a place.
+* [Most recent ASO datasets](https://www.airbornesnowobservatories.com/ ): Packages for most recent ASO data.
+* [Landsat and Sentinel band reference table](https://lpdaac.usgs.gov/data/get-started-data/collection-overview/missions/harmonized-landsat-sentinel-2-hls-overview/#hls-spectral-bands): The table for HLS Spectral Bands we used to compare and cauculate the NDSI. And we calculated NDSI followed by (https://www.usgs.gov/landsat-missions/normalized-difference-snow-index).
+* [Tiling System](https://hls.gsfc.nasa.gov/products-description/tiling-system/): The naming convention used in some parts is based off of the ESA's tiling system. This links to a high resolution image of the system.
 
-## Set up the environment
-1. Install [Poetry](https://python-poetry.org/docs/#installation)
-2. Set up the environment:
-```bash
-make env 
-```
+Lidar Data
+* [Earthdata Search](https://search.earthdata.nasa.gov/search): We used 50m resolution lidar data found via Earthdata Search as our truth values due to it being very precise and accurate. See [here](https://nsidc.org/data/user-resources/help-center/search-order-and-customize-nsidc-daac-data-nasa-earthdata-search): for a tutorial on how to use the tool.
+* [ASO](https://data.airbornesnowobservatories.com/) Alternatively, we can look in here for specific regions of lidar data.
 
-## Install dependencies
-To install all dependencies for this project, run:
-```bash
-poetry install
-```
+## Accessing the working environement
+To match the development environment, access cyrocloud.
 
-To install a new package, run:
-```bash
-poetry add <package-name>
-```
-
-## Version your data
-To track changes to the "data" directory, type:
-```bash
-dvc add data
-```
-
-This command will create the "data.dvc" file, which contains a unique identifier and the location of the data directory in the file system.
-
-To keep track of the data associated with a particular version, commit the "data.dvc" file to Git:
-```bash
-git add data.dvc
-git commit -m "add data"
-```
-
-To push the data to remote storage, type:
-```bash
-dvc push 
-```
-
-## Auto-generate API documentation
-
-To auto-generate API document for your project, run:
-
-```bash
-make docs
+## Set up a local environment
+If you are not able to access cryocloud, then look at the provided [[environment.yml]] file extracted from cryocloud.
+From the same directory, run `conda env create --name envname --file=environment.yml` (replacing envname) to generate a conda environment. This will have all libraries at the appropriate versions that we used in this project.
 ```
