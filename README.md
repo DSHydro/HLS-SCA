@@ -10,7 +10,7 @@ Machine learning (ML) techniques are becoming increasingly vital for land cover 
 
 ## Tools used in this Project/References
 Environment
-* [Cryocloud](https://book.cryointhecloud.com/content/Getting_Started.html): Builtin environment to access and manipulate data.
+* [Cryocloud](https://book.cryointhecloud.com/content/Getting_Started.html): Built-in environment to access and manipulate data.
 
 Tutorials
 * [2021 Cloud Hackathon](https://nasa-openscapes.github.io/2021-Cloud-Hackathon/tutorials/): Tutorial on data access helps to build baseline model codes. We primarily used tutorials 2 (to collect relevant links), 4 (to set up NASA Earthdata access), and 5 (extracting .tif files from links collected in tutorial 2).
