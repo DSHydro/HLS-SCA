@@ -38,7 +38,7 @@ We've generated model 0 based on "ground truth" data, derived from the HLS NDSI 
 To get model 0, please follow the steps on notebooks:
 1. DataDiscovery.ipynb
 2. EarthdataLoginSetup.ipynb
-3. EarthdataLoginSetup.ipynb
+3. SnowIndexing.ipynb
 
 ## Random Forest Model
 In Process...
