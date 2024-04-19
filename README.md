@@ -32,4 +32,13 @@ To match the development environment, access cyrocloud.
 ## Set up a local environment
 If you are not able to access cryocloud, then look at the provided [[environment.yml]] file extracted from cryocloud.
 From the same directory, run `conda env create --name envname --file=environment.yml` (replacing envname) to generate a conda environment. This will have all libraries at the appropriate versions that we used in this project.
-```
+
+## Model 0
+We've generated model 0 based on "ground truth" data, derived from the HLS NDSI product using a threshold of 0.4.
+To get model 0, please follow the steps on notebooks:
+1. DataDiscovery.ipynb
+2. EarthdataLoginSetup.ipynb
+3. EarthdataLoginSetup.ipynb
+
+## Random Forest Model
+In Process...
