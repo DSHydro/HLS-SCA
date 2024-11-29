@@ -41,4 +41,7 @@ To get model 0, please follow the steps on notebooks:
 3. SnowIndexing.ipynb
 
 ## Random Forest Model
-In Process...
+Validation framework on comparing Ml-derived datasets with ground truth measurements.
+To run Random forest model:
+1.RF_data_preparation.ipynb
+2.RF_Model.ipynb
